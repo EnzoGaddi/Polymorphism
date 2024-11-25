@@ -24,7 +24,7 @@ public class ProductApp {
             // Book or a Software Object? = ProductDB.getProduct(productCode);
 
             // display the output
-            /*
+            Product p = ProductDB.getProduct(productCode);
             System.out.println();
             if (p != null) {
                 System.out.println("Description: " + p.toString());
@@ -40,7 +40,7 @@ public class ProductApp {
             System.out.print("Continue? (y/n): ");
             choice = sc.nextLine();
             System.out.println();
-            */
+
         }
     }
 }
